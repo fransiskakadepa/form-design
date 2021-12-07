@@ -1,0 +1,39 @@
+<h2 class="judul">Tambah Pegawai</h2>
+<form method="post" action="proses.php"></form>
+    <div class="form-group"></div>
+        <label for="foto">Foto</label>
+        <div class="input"><input type="file" id="foto"></div>
+        <div>
+
+            <div class="form-group">
+                <label for="nama">Nama</label>
+                <div class="input"><input type="text" id="nama"></div>
+            </div>
+            <div class="form-group"></div>
+            <label for="jk">Jenis Kelamin</label>
+            <input type="radio" id="jk" name="jk" value="L">
+            Laki-laki
+            <input type="radio" id="jk" name="jk" value="P">
+            Perempuan
+        </div>
+
+        <div class="form-group">
+            <label for="tanggal">Tanggal</label>
+            <div class="input"><input type="date" id="tanggal"></div>
+        </div>
+        <div class="form-group">
+            <label for="jabatan">Jabatan</label>
+            <div class="input">
+            <select id="jabatan">
+                <option value="direktur">Direktur</option>
+                <option value="manajer">Manager</option>
+                <option value="marketing">Marketing</option>
+                <option value="sekretaris">Sekretaris</option>
+            </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Simpan" class="tombol simpan">
+            <input type="reset" value="Batal" class="tombol reset">
+        </div>
+        </form>

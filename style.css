@@ -1,0 +1,44 @@
+/* Mengatur desain judul halaman dengan border di bawah */
+.judul{
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+}
+
+/* Mengatur agar lebar tabel penuh dan antar border tidak memiliki jarak */
+.table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+/* Menambahkan border dan padding pada sel tabel */
+.table th, .table td{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Mengatur background bagian judul table */
+.table th{
+    background: #eee;
+}
+
+/* Mengatur tombol yg dibuat dengan tag <a> */
+.tombol{
+    display: inline-block;
+    max-width: 150px;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    background: #038ade;
+    cursor: pointer;
+}
+
+/* Desain tombol edit dan hapus agar lebih kecil */
+.tombol.edit, .tombol.hapus{
+    padding: 10px 15px;
+    font-size: 12px;
+}
+.tombol.hapus{
+    background: #fc4c4c;
+}
